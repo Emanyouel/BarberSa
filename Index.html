@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barber SA</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo-area">
+        <img
+          src="images/Pi7_Screenshot 2025-10-30 145345-Photoroom.png"
+          alt="Barber SA Logo"
+          class="logo-img"
+        />
+        <span class="logo-text">Barber SA</span>
+      </div>
+
+      <!-- Hamburger button (only visible on mobile) -->
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav id="navbar">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#gallery">Our Gallery</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <img
+          src="images/Pi7_Screenshot 2025-10-30 145345-Photoroom.png"
+          alt="Barber SA Logo"
+          class="hero-logo"
+        />
+        <h1>Premium Barbershop Experience</h1>
+        <p>
+          Step into luxury and precision — where modern style meets timeless
+          craftsmanship. Relax, refresh, and redefine your look.
+        </p>
+        <div class="buttons">
+          <a href="#services" class="btn primary">Our Services</a>
+          <a href="#contact" class="btn secondary">Find Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------Our services -------------------->
+    <section class="services" id="services">
+      <div class="services-header">
+        <h2>Our Services</h2>
+        <p>
+          Experience precision, style, and luxury with our professional grooming
+          and facial treatments.
+        </p>
+      </div>
+
+      <div class="services-menus">
+        <!-- Hair Services -->
+        <div class="service-menu hair">
+          <h3>Hair Services</h3>
+          <ul>
+            <li><span>Regular Cuts(Adults)</span><span>R180</span></li>
+            <li><span>Pentioners Cut</span><span>R130</span></li>
+            <li><span>School Boys Cuts</span><span>R150</span></li>
+            <li><span>Fades</span><span>R200</span></li>
+            <li><span>Skin fades</span><span>R220</span></li>
+            <li><span>Regular Cut & Beard Trim</span><span>R310</span></li>
+            <li><span>Fade & Beard Trim</span><span>R310</span></li>
+            <li><span>Head Shave</span><span>R180</span></li>
+          </ul>
+        </div>
+
+        <!-- Facial Services -->
+        <div class="service-menu facial">
+          <h3>Facial Services</h3>
+          <ul>
+            <li><span>Beard Trim</span><span>R100</span></li>
+            <li><span>Beard Trim & Line-Up</span><span>R150</span></li>
+            <li><span>Beard Shave</span><span>R150</span></li>
+            <li><span>Nose Wax</span><span>$50</span></li>
+            <li><span>Ears Wax</span><span>$50</span></li>
+            <li><span>Nose & Ears(both)</span><span>$80</span></li>
+            <span></span>
+            <span></span>
+            <span></span>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-------------------------------Our Work/Gallery------------------------------->
+
+    <!--------------------------------->
+    <!-- ====== Our Gallery Section ====== -->
+    <section id="gallery">
+      <div class="gallery-container">
+        <h2 class="our-gallery-heading">Our Gallery</h2>
+        <p>
+          A glimpse of the precision, craft, and style that define every cut at
+          <strong>Barber SA</strong>.
+        </p>
+
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="images/menu Photo 1.jpg" alt="Classic fade" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/menu Photo 2.jpg" alt="Beard trim" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/menu photo3.jpg" alt="Luxury interior" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/menu Photo 2.jpg" alt="Hairline detailing" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/menu Photo 1.jpg" alt="Modern fade" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/menu Photo 2.jpg" alt="Aftercare styling" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------About Us--------------------------------------->
+    <section class="about" id="about">
+      <div class="about-container">
+        <!-- Left: Video or Image -->
+        <div class="about-media">
+          <video
+            autoplay
+            muted
+            loop
+            playsinline
+            poster="/images/menu Photo 1.jpg"
+            class="about-video"
+          >
+            <source src="images/BarfeerSA website vider.mp4" type="video/mp4" />
+            <!-- fallback image -->
+            <img src="/images/menu Photo 1.jpg" alt="Barber SA Experience" />
+          </video>
+        </div>
+
+        <!-- Right: Text Content -->
+        <div class="about-text">
+          <h2 class="our-gallery-heading">About Us</h2>
+          <h3>Welcome to Barber SA</h3>
+          <p>
+            Located in the heart of Centurion Mall, Barber SA offers premium
+            grooming services for the modern gentleman. Our skilled barbers
+            combine traditional techniques with contemporary styles to deliver
+            precise, clean, and timeless results.
+          </p>
+          <p>
+            With years of experience and a deep passion for our craft, we pride
+            ourselves on attention to detail and ensuring every client leaves
+            confident and refreshed. Whether you’re after a classic cut, sharp
+            fade, or professional beard trim — we’ve got you covered.
+          </p>
+          <p>
+            <strong>No appointments needed.</strong> Walk-ins are welcome
+            anytime during business hours.
+          </p>
+
+          <ul class="about-highlights">
+            <li>Expert Barbers</li>
+            <li>Premium Products</li>
+            <li>Clean Environment</li>
+            <li>Relaxing Atmosphere</li>
+          </ul>
+
+          <p class="note">
+            Note: We close every Friday from 12:30 to 13:30. Thank you for
+            understanding.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------Find Us Here----------------------------------->
+    <section id="contact" class="contact">
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2>Contact Us</h2>
+          <p>
+            We’d love to hear from you. Visit us, give us a call, or drop a
+            message anytime.
+          </p>
+
+          <div class="contact-details">
+            <p>
+              <strong>📍 Address:</strong> Shop 42, Centurion Mall, Centurion,
+              South Africa
+            </p>
+            <p>
+              <strong>📞 Phone:</strong>
+              <a href="tel:+27111234567">+27 11 123 4567</a>
+            </p>
+            <p>
+              <strong>✉️ Email:</strong>
+              <a href="mailto:info@barbersa.co.za">info@barbersa.co.za</a>
+            </p>
+          </div>
+
+          <div class="opening-hours">
+            <h3>Opening Hours</h3>
+            <table>
+              <tr>
+                <td>Monday - Friday</td>
+                <td>09:00 - 18:00</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>09:00 - 16:00</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>Closed</td>
+              </tr>
+              <tr>
+                <td>Friday Break</td>
+                <td>12:30 - 13:30</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.743414469081!2d28.04730531543366!3d-26.204102983450774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950bda9cf64e73%3A0x83a36a3db5c4e94a!2sJohannesburg!5e0!3m2!1sen!2sza!4v1600000000000!5m2!1sen!2sza"
+            allowfullscreen=""
+            loading="lazy"
+          >
+          </iframe>
+
+          <a
+            href="https://www.google.com/maps?q=Johannesburg"
+            target="_blank"
+            class="map-button"
+          >
+            Open in Google Maps
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------Footer----------------------------------------->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Logo and Tagline -->
+        <div class="footer-logo">
+          <img
+            src="images/Pi7_Screenshot 2025-10-30 145345-Photoroom.png"
+            alt="Barber SA Logo"
+          />
+          <h3>Barber SA</h3>
+          <p>Premium Barbershop Experience</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Working Hours -->
+        <div class="footer-hours">
+          <h4>Working Hours</h4>
+          <ul>
+            <li>Monday – Friday: 9:00 – 19:00</li>
+            <li>Saturday: 8:00 – 18:00</li>
+            <li>Sunday: 9:00 – 17:00</li>
+            <li>Friday: Closed 12:30 – 13:30</li>
+          </ul>
+        </div>
+
+        <!-- Social Media -->
+        <div class="footer-socials">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Barber SA. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-------------------------------script----------------------------->
+    <script>
+      const menuToggle = document.getElementById("menu-toggle");
+      const nav = document.getElementById("navbar");
+
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        nav.classList.toggle("active");
+      });
+
+      const sections = document.querySelectorAll("section");
+      const navLinks = document.querySelectorAll(".nav-link");
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              navLinks.forEach((link) => {
+                link.classList.remove("active");
+                if (
+                  link.getAttribute("href").substring(1) === entry.target.id
+                ) {
+                  link.classList.add("active");
+                }
+              });
+            }
+          });
+        },
+        { threshold: 0.5 } // section is considered visible when 50% of it is in view
+      );
+
+      sections.forEach((section) => observer.observe(section));
+    </script>
+  </body>
+</html>
+
+<!------------------------------------->
